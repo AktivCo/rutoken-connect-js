@@ -8,6 +8,10 @@
 npm install @aktivco/rutoken-connect
 ```
 
+## Пример использования
+
+[Пример](example/README.md) использования модуля rutoken-connect находится в директории example.
+
 ## API
 
 ### Функции
@@ -27,4 +31,4 @@ npm install @aktivco/rutoken-connect
 
 ## Лицензия
 
-Исходный код распространяется под лицензией Simplified BSD. См. файл LICENSE в корневой директории проекта.
+Исходный код распространяется под лицензией Simplified BSD. См. файл [LICENSE](LICENSE) в корневой директории проекта.
