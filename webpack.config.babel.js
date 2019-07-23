@@ -1,13 +1,9 @@
 import CopyPlugin from 'copy-webpack-plugin';
+import minify from 'babel-minify';
 
-module.exports = {
+const config = {
     entry: './src/index.js',
     mode: 'production',
-    optimization: { minimize: false },
-    output: {
-        filename: 'rtconnect.umd.js',
-        libraryTarget: 'umd',
-    },
     module: {
         rules: [{
             test: /\.js$/,
@@ -28,9 +24,34 @@ module.exports = {
             loader: 'eslint-loader',
         }],
     },
-    plugins: [
-        new CopyPlugin([
-            { from: 'src/index.js', to: 'rtconnect.es.js' },
-        ]),
-    ],
 };
+
+module.exports = [{
+    ...config,
+    optimization: { minimize: false },
+    output: {
+        filename: 'rtconnect.umd.js',
+        library: 'rutoken-connect',
+        libraryTarget: 'umd',
+    },
+    plugins: [
+        new CopyPlugin([{ from: 'src/index.js', to: 'rtconnect.es.js' }]),
+    ],
+}, {
+    ...config,
+    optimization: { minimize: true },
+    output: {
+        filename: 'rtconnect.umd.min.js',
+        library: 'rutoken-connect',
+        libraryTarget: 'umd',
+    },
+    plugins: [
+        new CopyPlugin([{
+            from: 'src/index.js',
+            to: 'rtconnect.es.min.js',
+            transform(content) {
+                return minify(content, {}, { sourceType: 'module' }).code;
+            },
+        }]),
+    ],
+}];
