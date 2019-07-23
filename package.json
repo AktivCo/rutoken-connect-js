@@ -1,5 +1,5 @@
 {
-    "name": "rutoken-connect",
+    "name": "@aktivco/rutoken-connect",
     "version": "0.1.0",
     "module": "dist/rtconnect.es.js",
     "browser": "dist/rtconnect.umd.js",
