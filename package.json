@@ -1,0 +1,42 @@
+{
+    "name": "rutoken-connect",
+    "version": "0.1.0",
+    "module": "dist/rtconnect.es.js",
+    "browser": "dist/rtconnect.umd.js",
+    "scripts": {
+        "build": "webpack",
+        "fix": "eslint --fix src",
+        "webpack:lint": "eslint webpack.config.babel.js babel.config.js",
+        "webpack:fix": "eslint --fix webpack.config.babel.js babel.config.js"
+    },
+    "description": "Provides Rutoken Connect API",
+    "keywords": [
+        "rutoken",
+        "rutoken connect",
+        "rtconnect",
+        "рутокен",
+        "рутокен коннект"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AktivCo/rutoken-connect-js"
+    },
+    "author": "CJSC Aktiv-Soft",
+    "license": "BSD-2-Clause",
+    "devDependencies": {
+        "@babel/core": "^7.5.5",
+        "@babel/preset-env": "^7.5.5",
+        "@babel/register": "^7.5.5",
+        "babel-eslint": "^10.0.2",
+        "babel-loader": "^8.0.6",
+        "copy-webpack-plugin": "^5.0.3",
+        "eslint": "^6.0.1",
+        "eslint-config-airbnb": "^17.1.1",
+        "eslint-loader": "^2.2.1",
+        "eslint-plugin-import": "^2.18.1",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-react": "^7.14.2",
+        "webpack": "^4.36.1",
+        "webpack-cli": "^3.3.6"
+    }
+}

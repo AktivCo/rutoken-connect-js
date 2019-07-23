@@ -1,0 +1,8 @@
+/.git/
+/node_modules/
+/src/
+/.eslintrc.json
+/.gitignore
+/babel.config.js
+/webpack.config.babel.js
+/yarn.lock

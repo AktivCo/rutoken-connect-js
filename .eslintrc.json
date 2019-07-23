@@ -1,0 +1,12 @@
+{
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+    "env": { "browser": true },
+    "rules": {
+        // Indent everything with 4 spaces
+        "indent": ["error", 4],
+
+        // Should not be strict and 120 is okay
+        "max-len": ["warn", 120]
+    }
+}
