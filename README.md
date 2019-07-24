@@ -5,7 +5,7 @@
 ## Установка
 
 ```sh
-npm install rutoken-connect
+npm install @aktivco/rutoken-connect
 ```
 
 ## API
