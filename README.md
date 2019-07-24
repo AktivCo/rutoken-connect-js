@@ -1,16 +1,35 @@
 # Модуль для Рутокен Коннект
 
-Модуль позволяет получить статус приложения Рутокен Коннект.
+Модуль позволяет получить статус приложения Рутокен Коннект. Использование возможно в формате [ES модуля](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import), а также в виде [UMD модуля](https://github.com/umdjs/umd).
 
 ## Установка
+
+### npm
 
 ```sh
 npm install @aktivco/rutoken-connect
 ```
 
-## Пример использования
+### Releases
 
-[Пример](example/README.md) использования модуля rutoken-connect находится в директории example.
+Архивы с модулем находятся в разделе [releases](https://github.com/AktivCo/rutoken-connect-js/releases/).
+
+### Github Pages
+
+Последняя версия:
+* https://aktivco.github.io/rutoken-connect-js/lib/latest/rtconnect.es.js -- ES модуль;
+* https://aktivco.github.io/rutoken-connect-js/lib/latest/rtconnect.es.min.js -- минифицированный ES модуль;
+* https://aktivco.github.io/rutoken-connect-js/lib/latest/rtconnect.umd.js -- UMD модуль;
+* https://aktivco.github.io/rutoken-connect-js/lib/latest/rtconnect.umd.min.js -- минифицированный UMD модуль.
+
+Для использования конкретной версии необходимо указать ее номер в URL. Пример:
+https://aktivco.github.io/rutoken-connect-js/lib/0.2.0/rtconnect.es.js
+
+## Примеры использования
+
+Примеры использования находятся в директории [examples](examples):
+* [webpack](examples/webpack) -- демонстрирует работу с ES модулем при сборке проекта с помощью webpack;
+* [plain](examples/plain) -- демонстрирует работу без использования системы сборки и внешних библиотек.
 
 ## API
 
