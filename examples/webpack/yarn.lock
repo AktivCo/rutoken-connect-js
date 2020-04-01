@@ -3,9 +3,9 @@
 
 
 "@aktivco/rutoken-connect@^0.2.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@aktivco/rutoken-connect/-/rutoken-connect-0.1.0.tgz#a40b6bd078645ea19c515d53815b54eee4845e5d"
-  integrity sha512-QM6L6wRZW9cGBxjnugYpe+hBAbsBDpTHwm185ruCcJyHdQ1wD2rxJKqNpS3/BgxMH44fjrggzu0YqzpAsh6SVQ==
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@aktivco/rutoken-connect/-/rutoken-connect-0.2.0.tgz#11f7b6211e6acc48826a9a653ebc134bd668a630"
+  integrity sha512-C5ACzECexlKFSRa2pqskGpICPiWpzCcbHaOxx5rz0o/RqgQtYgF65E66gghmG2xwTRzJHk9b9A/Vy7SXu48cyA==
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.5.5":
   version "7.5.5"
@@ -829,9 +829,9 @@ acorn-jsx@^5.0.0:
   integrity sha512-HJ7CfNHrfJLlNTzIEUTj43LNWGkqpRLxm3YjAlcD0ACydk9XynzYsCBHxut+iqt+1aBXkx9UP/w/ZqMr13XIzg==
 
 acorn@^6.0.7, acorn@^6.2.0:
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.2.1.tgz#3ed8422d6dec09e6121cc7a843ca86a330a86b51"
-  integrity sha512-JD0xT5FCRDNyjDda3Lrg/IxFscp9q4tiYtxE1/nOzlKCk7hIRuYjhq1kCNkbPjMRMZuFq20HNQn1I9k8Oj0E+Q==
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.1.tgz#531e58ba3f51b9dacb9a6646ca4debf5b14ca474"
+  integrity sha512-ZVA9k326Nwrj3Cj9jlh3wGFutC2ZornPNARZwsNYqQYgN0EsV2d53w5RN/co65Ohn4sUAUtb1rSUAOD6XN9idA==
 
 ajv-errors@^1.0.0:
   version "1.0.1"
