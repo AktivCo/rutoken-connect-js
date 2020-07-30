@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "description": "Example of using Rutoken Connect Module",
     "repository": "https://github.com/AktivCo/rutoken-connect-js",
-    "author": "CJSC Aktiv-Soft",
+    "author": "Aktiv-Soft JSC",
     "license": "BSD-2-Clause",
     "scripts": {
         "build": "webpack",
