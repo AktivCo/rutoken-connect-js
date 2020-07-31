@@ -35,7 +35,11 @@ module.exports = [{
         libraryTarget: 'umd',
     },
     plugins: [
-        new CopyPlugin([{ from: 'src/index.js', to: 'rtconnect.es.js' }]),
+        new CopyPlugin({
+            patterns: [
+                { from: 'src/index.js', to: 'rtconnect.es.js' },
+            ],
+        }),
     ],
 }, {
     ...config,
@@ -46,12 +50,16 @@ module.exports = [{
         libraryTarget: 'umd',
     },
     plugins: [
-        new CopyPlugin([{
-            from: 'src/index.js',
-            to: 'rtconnect.es.min.js',
-            transform(content) {
-                return minify(content, {}, { sourceType: 'module' }).code;
-            },
-        }]),
+        new CopyPlugin({
+            patterns: [
+                {
+                    from: 'src/index.js',
+                    to: 'rtconnect.es.min.js',
+                    transform(content) {
+                        return minify(content, {}, { sourceType: 'module' }).code;
+                    },
+                },
+            ],
+        }),
     ],
 }];
