@@ -28,8 +28,10 @@ export default () => ({
         }],
     },
     plugins: [
-        new CopyPlugin([
-            { from: 'src/index.html', to: 'index.html' },
-        ]),
+        new CopyPlugin({
+            patterns: [
+                { from: 'src/index.html', to: 'index.html' },
+            ],
+        }),
     ],
 });
