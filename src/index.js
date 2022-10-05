@@ -8,7 +8,10 @@ const Status = Object.freeze({
 });
 const lastStatus = Status.error;
 
-const isFirefox = typeof InstallTrigger !== 'undefined';
+const isFirefox = (function checkIsFirefox() {
+    const ua = window.navigator.userAgent;
+    return !!ua.match(/firefox/i) && !ua.match(/seamonkey/i);
+}());
 
 let status;
 let statusPromise;
