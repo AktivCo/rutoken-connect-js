@@ -4,9 +4,18 @@
 
 ## Сборка
 
+### npm
+
 ```sh
 npm install
-npm build
+npm run build
+```
+
+### yarn
+
+```sh
+yarn
+yarn build
 ```
 
 Собранный пример окажется в директории dist.

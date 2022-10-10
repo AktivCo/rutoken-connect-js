@@ -12,21 +12,20 @@
         "webpack:fix": "eslint --fix webpack.config.babel.js babel.config.js"
     },
     "devDependencies": {
-        "@babel/core": "^7.11.0",
-        "@babel/preset-env": "^7.11.0",
-        "@babel/register": "^7.10.5",
-        "babel-eslint": "^10.1.0",
-        "babel-loader": "^8.1.0",
-        "copy-webpack-plugin": "^6.0.3",
-        "eslint": "^7.5.0",
-        "eslint-config-airbnb-base": "^14.2.0",
-        "eslint-import-resolver-webpack": "^0.12.2",
-        "eslint-loader": "^4.0.2",
-        "eslint-plugin-import": "^2.22.0",
-        "webpack": "^4.44.1",
-        "webpack-cli": "^3.3.12"
+        "@babel/core": "^7.19.3",
+        "@babel/eslint-parser": "^7.19.1",
+        "@babel/preset-env": "^7.19.3",
+        "@babel/register": "^7.18.9",
+        "copy-webpack-plugin": "^11.0.0",
+        "eslint": "^8.25.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-import-resolver-webpack": "^0.13.2",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-webpack-plugin": "^3.2.0",
+        "webpack": "^5.74.0",
+        "webpack-cli": "^4.10.0"
     },
     "dependencies": {
-        "@aktivco/rutoken-connect": "^0.2.0"
+        "@aktivco/rutoken-connect": "^0.3.0"
     }
 }

@@ -10,6 +10,12 @@
 npm install @aktivco/rutoken-connect
 ```
 
+### yarn
+
+```sh
+yarn add @aktivco/rutoken-connect
+```
+
 ### Releases
 
 Архивы с модулем находятся в разделе [releases](https://github.com/AktivCo/rutoken-connect-js/releases/).
