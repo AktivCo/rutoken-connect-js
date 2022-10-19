@@ -29,7 +29,7 @@ yarn add @aktivco/rutoken-connect
 * https://aktivco.github.io/rutoken-connect-js/lib/latest/rtconnect.umd.min.js -- минифицированный UMD модуль.
 
 Для использования конкретной версии необходимо указать ее номер в URL. Пример:
-https://aktivco.github.io/rutoken-connect-js/lib/0.2.0/rtconnect.es.js
+https://aktivco.github.io/rutoken-connect-js/lib/0.3.0/rtconnect.es.js
 
 ## Примеры использования
 
